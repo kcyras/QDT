@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 
-import numpy as np
-# from jax import grad
-
 import sympy as sp
 sp.init_printing()
 
 a, b, c, d, e, f = sp.symbols('a b c d e f')  # arguments
-
 E_a, E_b, E_c, E_d, E_e, E_f = sp.symbols('E_a E_b E_c E_d E_e E_f')
     # E_x - symbolic variable for the energy of argument x
 
@@ -73,5 +69,5 @@ print("Ctrb to a from d: ", pdfs_a_d.evalf(subs={a: a_initial, b: b_initial,
         c: c_initial, d: d_initial, e: e_initial, f: f_initial}, chop=True))
 print("Ctrb to a from e: ", pdfs_a_e.evalf(subs={a: a_initial, b: b_initial,
         c: c_initial, d: d_initial, e: e_initial, f: f_initial}, chop=True))
-print("Ctrb to a from e: ", pdfs_a_e.evalf(subs={a: a_initial, b: b_initial,
+print("Ctrb to a from f: ", pdfs_a_f.evalf(subs={a: a_initial, b: b_initial,
         c: c_initial, d: d_initial, e: e_initial, f: f_initial}, chop=True))
