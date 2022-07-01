@@ -13,4 +13,4 @@ A very limited collection of tools for [Qualitative (Bipolar) Argumentation](htt
 
 ## Contents
 
-* **WIP**: [symbolic derivatives](contrib.py) for determining _saliency gradient_ contributions in acyclic QBAGs under QE semantics (also on Jupyter notebooks, e.g. [example01](example01.ipynb))
+* **WIP**: [symbolic derivatives](contrib.py) for determining _saliency gradient_ contributions in acyclic QBAGs under QE semantics (also on Jupyter notebooks, e.g. [example01](exampleQDT.ipynb))
