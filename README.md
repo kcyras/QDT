@@ -4,8 +4,9 @@ A very limited collection of tools for [Qualitative (Bipolar) Argumentation](htt
 
 ## Requirements
 
-* [sympy](https://www.sympy.org/en/index.html) for Python
 * [Jupyter](https://jupyter.org/) for notebooks
+* [numpy](https://numpy.org/) and [sympy](https://www.sympy.org/en/index.html) for Python. Will be
+  auto-installed when running the notebooks.
 
 ## Assumes
 
