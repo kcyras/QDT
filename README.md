@@ -5,8 +5,9 @@ A very limited collection of tools for [Qualitative (Bipolar) Argumentation](htt
 ## Requirements
 
 * [Jupyter](https://jupyter.org/) for notebooks
-* [numpy](https://numpy.org/) and [sympy](https://www.sympy.org/en/index.html) for Python. Will be
-  auto-installed when running the notebooks.
+* [numpy](https://numpy.org/) and [sympy](https://www.sympy.org/en/index.html) for Python
+  * sympy will be
+  auto-installed when running the notebooks
 
 ## Assumes
 
@@ -14,4 +15,5 @@ A very limited collection of tools for [Qualitative (Bipolar) Argumentation](htt
 
 ## Contents
 
-* **WIP**: [symbolic derivatives](contrib.py) for determining _saliency gradient_ contributions in acyclic QBAGs under QE semantics (also on Jupyter notebooks, e.g. [example01](exampleQDT.ipynb))
+* [symbolic derivatives](contrib.py) for determining _saliency gradient_ contributions in acyclic QBAGs under QE semantics, assuming direct declarations of energy following a topological ordering of the QBAG
+  *  available as Jupyter notebooks, e.g. [example01](exampleQDT.ipynb)
